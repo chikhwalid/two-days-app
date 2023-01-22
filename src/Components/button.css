@@ -1,0 +1,34 @@
+.btn {
+  border: none;
+  border-radius: 50px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 16px 0 13px; /*up left-right bottom*/
+  color: inherit; /*force the element to inherit the color #e5e7eb from its higher */
+  transition: 0.3s;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1) rotate(-2deg);
+}
+
+.btn-large {
+  font-size: 20px;
+  padding: 20px 32px;
+}
+.btn-all-categories {
+  margin-bottom: 26px;
+  width: 100%; /* to make button occupy all width */
+}
+.btn-categorie {
+  width: 100%;
+  background-image: none; /*to remove the style of the generic class btn*/
+}
+.btn-open,
+.btn-post,
+.btn-all-categories {
+  background-image: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308);
+}

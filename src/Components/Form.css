@@ -1,0 +1,46 @@
+.fact-form {
+  font-size: 20px;
+  background-color: #1f2937;
+  margin-bottom: 16px;
+  padding: 16px 24px;
+  /* text-align: center; to align the elements inside the form */
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 15px;
+}
+@media (max-width: 970px) {
+  .fact-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .fact-form label {
+    text-align: center;
+  }
+}
+.fact-form input,
+.fact-form select,
+.fact-form option {
+  background-color: #374151;
+  border: none;
+  border-radius: 50px;
+  padding: 16px;
+  font-family: inherit;
+  font-weight: 500;
+  word-spacing: 2px;
+}
+.fact-form input:first-child {
+  flex-grow: 1; /*to make the first input grow as possible*/
+}
+.fact-form input::placeholder {
+  color: #9ca3af;
+}
+
+.fact-form label {
+  font-weight: 700;
+  margin-right: 20px;
+}
+.hidden {
+  display: none !important;
+}

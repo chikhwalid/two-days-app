@@ -1,0 +1,9 @@
+.container {
+  max-width: 1500px;
+  /* old css trick to center componnets */
+  /* we can use grid or flex also */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /*  to opptimise some code we can use */
+  margin: 0 auto;
+}

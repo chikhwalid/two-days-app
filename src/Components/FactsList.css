@@ -1,0 +1,63 @@
+.facts-list {
+  list-style: none;
+}
+.fact-item {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -1;
+  background-color: #1f2937;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+@media (max-width: 1200px) {
+  .fact-item {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+  }
+}
+.source:link,
+.source:visited {
+  color: #6b7280;
+  text-decoration: none;
+  margin-left: 12px;
+  transition: 0.3s;
+}
+.source:hover,
+.source:active {
+  color: #3b82f6;
+}
+.tag {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  /* padding-top: 3px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
+}
+.vote-btns {
+  margin-left: auto;
+  /* flex-shrink: 0; */ /*bach l'icone w numero t3 vote ma ybdloch position t3hom, f la position t3na sa pose pa de problem so far*/
+  display: flex;
+  gap: 10px;
+}
+.vote-btns button {
+  font-family: "Open Sans";
+  font-weight: 700;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  background-color: #374151;
+  padding: 5px;
+  width: 70px;
+  transition: 0.3s;
+}
+.vote-btns button:hover {
+  cursor: pointer;
+  background-color: #111827;
+}
